@@ -11,13 +11,15 @@
     "password": "postgres",
     "database": "todos-dev",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "logging" : false
   },
   "production": {
     "username": "postgres",
     "password": "postgres",
     "database": "todos-dev",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "logging" : false
   }
 }
