@@ -1,18 +1,23 @@
 {
   "development": {
-    "username": "waiyaki",
-    "password": null,
+    "username": "postgres",
+    "password": "postgres",
     "database": "todos-dev",
     "host": "127.0.0.1",
-    "port": 5432,
     "dialect": "postgres"
   },
   "test": {
-    "username": "waiyaki",
-    "password": null,
-    "database": "todos-test",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "todos-dev",
     "host": "127.0.0.1",
-    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "todos-dev",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   }
 }
