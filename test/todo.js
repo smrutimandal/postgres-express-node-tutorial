@@ -36,7 +36,7 @@ describe('Todo', () => {
           });
       });
 
-      it('it should GET all the Todos', (done) => {
+      it('it should GET the Todos', (done) => {
         chai.request(server)
           .get('/api/todos')
           .then((res) => {
