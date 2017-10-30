@@ -42,7 +42,7 @@ describe('Todo', () => {
           .then((res) => {
             res.should.have.status(200);
             res.body.should.be.an('array');
-            return done();
+            return done(process.exit(0));
           })
           .catch((err) => {
             return done(process.exit(1));
