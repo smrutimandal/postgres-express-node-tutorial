@@ -18,7 +18,7 @@
     "username": "postgres",
     "password": "postgres",
     "database": "todos-dev",
-    "host": "127.0.0.1",
+    "host": "192.168.122.1",
     "dialect": "postgres",
     "logging" : false
   }
